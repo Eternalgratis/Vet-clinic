@@ -71,12 +71,3 @@ SELECT animals.name FROM animals JOIN owners ON animals.owner_id = owners.id WHE
 
 SELECT owners.full_name, COUNT(animals.name) FROM owners LEFT JOIN animals ON owners.id = animals.owner_id GROUP BY owners.full_name ORDER BY COUNT(animals.name) DESC;
 
-
--- Write queries (using JOIN) to answer the following questions:
--- What animals belong to Melody Pond?
--- List of all animals that are pokemon (their type is Pokemon).
--- List all owners and their animals, remember to include those that don't own any animal.
--- How many animals are there per species?
--- List all Digimon owned by Jennifer Orwell.
--- List all animals owned by Dean Winchester that haven't tried to escape.
--- Who owns the most animals?

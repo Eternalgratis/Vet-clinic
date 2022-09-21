@@ -35,11 +35,3 @@ UPDATE animals SET owner_id = 5 WHERE name = 'Angemon' OR name = 'Boarmon';
 
 
 
--- Modify your inserted animals to include owner information (owner_id):
--- Sam Smith owns Agumon.
--- Jennifer Orwell owns Gabumon and Pikachu.
--- Bob owns Devimon and Plantmon.
--- Melody Pond owns Charmander, Squirtle, and Blossom.
--- Dean Winchester owns Angemon and Boarmon.
-
-
