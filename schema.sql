@@ -12,7 +12,7 @@ CREATE TABLE animals (
 );
 
 
-/*Alter table*/
+/* using Alter to add column*/
 ALTER TABLE animals
 ADD species VARCHAR(250);
 
